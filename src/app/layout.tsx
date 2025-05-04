@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
-import { Montserrat, Geist } from "next/font/google";
+import { Geist } from "next/font/google";
 import "./globals.css";
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  variable: "--font-montserrat",
-  display: "swap",
-});
 
 const geist = Geist({
   subsets: ["latin"],
@@ -15,7 +9,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "OJT Digital Portfolio",
+  title: "Tiempo | OJT Digital Portfolio",
   description: "Allen Tiempo OJT Digital Portfolio",
 };
 
